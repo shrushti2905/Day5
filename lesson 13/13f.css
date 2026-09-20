@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+}
+
+.tweet {
+    width: 700px;
+    display: flex;
+}
+
+.profile {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.user {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.user span {
+    color: gray;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+.video {
+    display: flex;
+    border: 1px solid #d6d4d4;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.thumbnail {
+    width: 230px;
+    background-color: #ddd;
+}
+
+.video-info {
+    padding: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.youtube {
+    color: gray;
+    margin-bottom: 8px;
+}
