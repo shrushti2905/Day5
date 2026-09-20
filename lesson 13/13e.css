@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+}
+
+.inbox {
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 8px gray;
+}
+
+.title {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.email img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.content {
+    flex: 1;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top span {
+    color: gray;
+}
+
+.content > b {
+    font-size: 16px;
+}
+
+p {
+    color: gray;
+    margin: 5px 0;
+}
