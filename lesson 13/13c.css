@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+}
+
+.email-box {
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+.title {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 18px;
+}
+
+.email-content {
+    flex: 1;
+}
+
+.sender {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subject {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.message {
+    color: gray;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.time {
+    color: gray;
+    font-size: 18px;
+    align-self: flex-start;
+}
